@@ -1,6 +1,11 @@
 {
     "name": "Todo PWA",
     "short_name": "Todo",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "portrait-primary",
     "icons": [
       {
         "src": "./assets/icon-100.png",
@@ -22,10 +27,5 @@
         "sizes": "500x500",
         "type": "image/png"
       }
-    ],
-    "theme_color": "#FFFFFF",
-    "background_color": "#FFFFFF",
-    "start_url": "/PWA-TodoApp/",
-    "display": "standalone",
-    "orientation": "portrait"
+    ]
   }
